@@ -31,7 +31,7 @@
         "hwi/oauth-bundle":                     "~0.3",
         "incenteev/composer-parameter-handler": "~2.0",
         "jackalope/jackalope-doctrine-dbal":    "1.1.*",
-        "jms/serializer-bundle":                "~0.13",
+        "jms/serializer-bundle":                "~1.0",
         "jms/translation-bundle":               "1.1.*",
         "knplabs/knp-gaufrette-bundle":         "*@dev",
         "knplabs/knp-snappy-bundle":            "*@dev",
@@ -46,7 +46,7 @@
         "symfony-cmf/content-bundle":           "~1.0",
         "symfony-cmf/menu-bundle":              "~1.0",
         "symfony-cmf/routing-bundle":           "~1.0",
-        "symfony-cmf/create-bundle":            "~1.0",
+        "symfony-cmf/create-bundle":            "dev-ava as 1.2.2",
         "symfony-cmf/media-bundle" :            "~1.0",
         "symfony/assetic-bundle":               "~2.3",
         "symfony/expression-language":          "~2.4",
@@ -59,7 +59,8 @@
         "winzou/state-machine-bundle":          "~0.2",
         "willdurand/hateoas-bundle":            "1.0.*@dev",
         "friendsofsymfony/oauth-server-bundle": "dev-master",
-        "friendsofsymfony/elastica-bundle":     "~3.0.2"
+        "friendsofsymfony/elastica-bundle":     "~3.0.2",
+        "midgard/createphp": "1.1.*@dev"
     },
     "require-dev": {
         "doctrine/doctrine-fixtures-bundle": "~2.2",
@@ -149,6 +150,12 @@
     "autoload": {
         "psr-0": { "Sylius\\": "src/" }
     },
+    "repositories": [
+      {
+        "type": "git",
+        "url":  "https://github.com/Avazanga1/CreateBundle.git"
+      }
+    ],
     "config": {
         "bin-dir": "bin"
     },
