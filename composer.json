@@ -46,7 +46,7 @@
         "symfony-cmf/content-bundle":           "~1.0",
         "symfony-cmf/menu-bundle":              "~1.0",
         "symfony-cmf/routing-bundle":           "~1.0",
-        "symfony-cmf/create-bundle":            "dev-ava as 1.2.2",
+        "symfony-cmf/create-bundle":            "dev-ava as 1.2.2@dev",
         "symfony-cmf/media-bundle" :            "~1.0",
         "symfony/assetic-bundle":               "~2.3",
         "symfony/expression-language":          "~2.4",
